@@ -1,0 +1,28 @@
+
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+h1, p {
+  font-family: Lato;
+}
+
+.product-card:hover {
+      box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+
+}
+
+.variant:hover {
+     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+
+}
+
+.variant-picked {
+  border-color: greenyellow;
+
+
+}
+
+.cart {
+  position: fixed;
+  z-index: 10;
+}
