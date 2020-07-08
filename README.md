@@ -1,6 +1,6 @@
-# react-ts-gctfmx
+# TShirt Coding Dojo
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-gctfmx)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/ts-shirt-coding-dojo)
 
 ### Info
 
