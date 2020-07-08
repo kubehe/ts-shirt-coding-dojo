@@ -23,7 +23,7 @@ export const Root: React.FC = () => {
     const intervalId = setInterval(() => {
       setProducts(productService.Products);
       setCart(productService.Cart);
-    }, 10);
+    }, 10); // This is not production code, tasks are meant as typescript exercises only and react is for preview. Normally if you'd want state of your class to be accesible to react elements try using rx-js and Subject for state managment.
     return () => clearInterval(intervalId);
   }, []);
 
