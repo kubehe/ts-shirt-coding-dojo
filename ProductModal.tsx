@@ -56,7 +56,7 @@ const ProductModal: React.FC<ProductProps> = ({ product, unSelectProduct }) => {
                     pickedVariantId === variant.id ? "variant-picked" : ""
                   }`}
                 >
-                  <CardImg top src={variant.imageSrc} alt={product.name} />
+                  <CardImg top src={variant.imageSrc} alt={product.name} style={{width: '220px', height: '280px'}} />
                   <CardBody>
                     <CardText>
                       <Badge className="ml-1" color="primary">
